@@ -1,0 +1,20 @@
+What is CSS:
+Css is a styling language which is used to modify the appearance of web pages.
+Used for presentation.Improves creativity.
+
+For play button - &#9658
+less than - &lt
+greater than - &gt
+giving input - <input type="number">
+
+Types of syntax:
+selector {
+property1: value;
+property2: value;
+} 
+Example:
+h1{
+color:blue;
+} ---->this will make the h1 heading into blue color.
+ Main selectors are Element, Class and ID.
+ 

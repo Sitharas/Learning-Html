@@ -1,0 +1,66 @@
+HTML:
+head
+body
+title
+heading
+break  </br>
+horizontal line   </hr>
+subscript   <sub>
+superscript <sup>
+paragraph   <p>
+bold letters  <b>
+small letters  <small>
+big letters    <big>
+comment 
+single line command <! >
+multiple line command <!--  -->
+For space we use &nbsp.
+Style and colours:
+color of texts   <style="color:blue;">
+background color only for texts   <style="background-color:yellow;"> {beside the color of the texts.}
+Page background  <style="background-color:lightblue;">
+Layout of the page: We have three parts
+a) Header ---> Navigations if any <nav> </nav>
+b) Main ---> Articles and sections <article> </article>, <section> </section>
+c) Footer
+Links:
+reference to go to any other website.  <a href="https://www.'whatever'.com" target=_blank> </a>
+To open up that website in new tab we use target=_blank
+Images:
+<img src="..."> no closing tag
+specify dimensions i.e., height and widhth.
+Videos:
+<video src="..."> </video>
+specify dimensions.
+For youtube videos:
+Go to any youtube video and then click share and then we will have an option of embed. There is an html code 
+in the tag <iframe> </iframe>.Just copy and paste.
+Lists: <li> topic </li>
+For unordered list we use <ul> </ul> And it shows in circle, disc, square.
+For ordered list we use <ol> </ol> And it shows in numbers or alphabets according to what you put for style
+For description list we use <dl> <dt> Apples </dt> <dd>-They are red </dd> </dl>
+Tables:
+<tr>----->table row
+<td>----->table data
+<th>----->table head
+Div and spans:
+block tags and inline elements.
+Inline are the links which sit next to each other. 
+Block elements are those which go to the next line.
+Span tag are in-line container and div tag are block container. 
+Inputs and forms:
+give the input type. say as < input type="text" />
+<textarea>"Enter any paragraph"</textarea>
+In checkbox we can choose multiple options but in radio button we can only choose one.
+We have to specify the name in radio type as in <input name="btn" type="radio"/>
+Iframes:
+Getting any other website in my website.
+<iframe src="website link which you want in your website"> </iframe>.
+specify the width and height if necessary.
+
+
+Two types of elements:
+Physical elements and logical elements.
+Physical : <b>,<i>,<u>,<tt>,<strike> etc,..
+Logical : <abbr>,<cite>,<code>,<dfn>,<em> etc,..
+
